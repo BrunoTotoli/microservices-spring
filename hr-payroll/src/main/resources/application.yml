@@ -1,5 +1,8 @@
 server:
-  port: 8082
+  port: 8083
 spring:
   application:
     name: hr-payroll
+hr-worker:
+  ribbon:
+    listOfServers: localhost:8081,localhost:8082
