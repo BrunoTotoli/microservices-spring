@@ -11,6 +11,7 @@
         <module>hr-worker</module>
         <module>hr-payroll</module>
         <module>hr-eurekaserver</module>
+        <module>hr-api-gateway-zuul</module>
     </modules>
 
     <properties>
